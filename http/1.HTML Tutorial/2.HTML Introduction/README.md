@@ -2,15 +2,15 @@
 
 ##什麼是HTML?
 
-- HTML 分別代表 超 (__H__yper)文本 (__T__ext) 標記 (__M__arkup) 語言 (__L__anguage)
+- HTML 分別代表 超 (**H**yper)文本 (**T**ext) 標記 (**M**arkup) 語言 (**L**anguage)
 
-- 標記語言 是一種 __標記標籤__
+- 標記語言 是一種 **標記標籤**
 
-- 使用 HTML標籤 來描述 __HTML文檔__
+- 使用 HTML標籤 來描述 **HTML文檔**
 
 - 每個不同的 HTML標籤 描述不同的文檔內容
 
-'''bash
+```
 <!DOCTYPE html>
 <html>
 
@@ -26,32 +26,32 @@
 
 	</body>
 </html>
-'''
+```
 
 ##範例解釋
 
-- 該 __DOCTYPE__ 聲明定義了文檔類型為HTML
-- __<html>__  和 __</html>__ 之間的文本 描述的是一個 HTML文檔
-- __<head>__  和 __</head>__ 之間的文本 提供了關於文檔的信息
-- __<title>__ 和 __</title>__之間的文本 顯示文檔標題
-- __<body>__  和 __</body>__ 之間的文本 為 可見頁面內容
-- __<h1>__    和 __</h1>__   之間的文本 為 標題
-- __<p>__     和 __</p>__    之間的文本 為 段落
+- 該 **DOCTYPE** 聲明定義了文檔類型為HTML
+- **<html>**  和 **</html>** 之間的文本 描述的是一個 HTML文檔
+- **<head>**  和 **</head>** 之間的文本 提供了關於文檔的信息
+- **<title>** 和 **</title>**之間的文本 顯示文檔標題
+- **<body>**  和 **</body>** 之間的文本 為 可見頁面內容
+- **<h1>**    和 **</h1>**   之間的文本 為 標題
+- **<p>**     和 **</p>**    之間的文本 為 段落
 
 
 ##HTML標籤
 
-被 __尖括號__ 包住的 關鍵字（標籤名） 就是 HTML標籤
+被 **尖括號** 包住的 關鍵字（標籤名） 就是 HTML標籤
 
-'''bash
+```
 <標記名>內容 </標記名>
-'''
+```
 
-- __HTML標籤__ 通常都是 __一對__ 的 就像 <p> 和 </p>
+- **HTML標籤** 通常都是 **一對** 的 就像 <p> 和 </p>
 
-- 第一個標籤是 __開始標籤__，第二個標籤是 __結束標籤__
+- 第一個標籤是 **開始標籤**，第二個標籤是 **結束標籤**
 
-- 結束標籤 和 開始標籤 很像，但在 __標籤名__ 前多了一條 __斜杠__
+- 結束標籤 和 開始標籤 很像，但在 **標籤名** 前多了一條 **斜杠**
 
 ##Web瀏覽器
 
@@ -65,7 +65,7 @@ Web瀏覽器的目的（瀏覽器，IE，Firefox和Safari）是讀取HTML文檔�
 
 下面是HTML的頁面結構
 
-___
+***
 
 - <html>
   - <head>
@@ -91,7 +91,7 @@ ___
 
 DOCTYPE聲明是不區分大小寫。所有例子都是可以接受的
 
-'''
+```
 <!DOCTYPE html>
 
 <!DOCTYPE HTML>
@@ -99,27 +99,27 @@ DOCTYPE聲明是不區分大小寫。所有例子都是可以接受的
 <!doctype html>
 
 <!Doctype Html>
-'''
+```
 
 ## 常見的聲明
 
 ### HTML5
 
-'''
+```
 <!DOCTYPE html>
-'''
+```
 
 ### HTML 4.01
 
-'''
+```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-'''
+```
 
 ### XHTML 1.0
 
-'''
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-'''
+```
 
 ## HTML版本
 
