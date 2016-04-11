@@ -27,7 +27,7 @@
 	</body>
 </html>
 ```
-
+[HTML 範例](./HTML Introduction.html)
 ##範例解釋
 ```
 該 DOCTYPE 聲明定義了文檔類型為HTML
