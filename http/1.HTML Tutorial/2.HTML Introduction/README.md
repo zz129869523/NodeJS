@@ -10,7 +10,7 @@
 
 - 每個不同的 HTML標籤 描述不同的文檔內容
 
-``` javascript
+``` html
 <!DOCTYPE html>
 <html>
 
@@ -97,7 +97,7 @@ Web瀏覽器的目的（瀏覽器，IE，Firefox和Safari）是讀取HTML文檔�
 
 DOCTYPE聲明是不區分大小寫。所有例子都是可以接受的
 
-``` javascript
+``` html
 <!DOCTYPE html>
 
 <!DOCTYPE HTML>
@@ -111,19 +111,19 @@ DOCTYPE聲明是不區分大小寫。所有例子都是可以接受的
 
 ### HTML5
 
-```javascript
+``` html
 <!DOCTYPE html>
 ```
 
 ### HTML 4.01
 
-```javascript
+``` html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
 ### XHTML 1.0
 
-```javascript
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
 

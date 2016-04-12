@@ -16,7 +16,7 @@ HTML 可以看見的部分在 <body> 和 </body> 之間
 ```
 
 ### 範例
-``` javascript
+``` html
 <!DOCTYPE html>
   <html>
 
@@ -38,7 +38,7 @@ HTML標題標籤 大小為 <h1> 到 <h6>
 
 ### 範例
 
-``` javascript
+``` html
 <h1>This is a heading</h1>
 <h2>This is a heading</h2>
 <h3>This is a heading</h3>
@@ -52,7 +52,7 @@ HTML的段落定義為<p>標籤
 ```
 ### 範例
 
-``` javascript
+``` html
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 ```
@@ -65,7 +65,7 @@ HTML的連結定義為<a>標籤
 
 ### 範例
 
-``` javascript
+``` html
 <a href="http://www.w3schools.com">This is a link</a>
 ```
 [HTML 範例](./example4.html)
@@ -84,7 +84,7 @@ The source file (src), alternative text (alt), and size (width and height) are p
 
 ### 範例
 
-``` javascript
+``` html
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 ```
 ![HTML 範例](http://www.w3schools.com/html/w3schools.jpg)

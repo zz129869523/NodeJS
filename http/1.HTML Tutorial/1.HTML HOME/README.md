@@ -5,6 +5,22 @@ HTML是簡單易學的，你會喜歡它。
 
 ## 每章的例子
 本HTML教程包含數百個HTML例子。
+範例：
+```html
+<!DOCTYPE html>                       <!--聲明這文件是HTML文件-->
+<html>                                <!--定義整個文件-->
+<body>                                <!--定義文件主體-->
+<head>                                <!--定義文件標頭-->
+<title>Page Title</title>             <!--HTML文件標題-->
+</head>                               <!--文件標投結束標籤-->
+<h1>This is a Heading</h1>            <!--<標題開始標籤>內容</標題結束標籤>-->
+<p>This is a paragraph.</p>           <!--<段落開始標籤>內容</段落結束標籤>-->
+</body>                               <!--文件主體結束標籤-->
+</html>                               <!--文件結束標籤-->
+```
+
+## HTML例子
+在HTML教程結束時，你可以找到超過兩百個的例子。
 [HTML例子！](http://www.w3schools.com/html/html_examples.asp)
 
 ## HTML測驗測試

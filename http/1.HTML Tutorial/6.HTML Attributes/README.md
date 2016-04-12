@@ -1,26 +1,26 @@
-# HTML Attributes
+# HTML 屬性
 
-Attributes provide additional information about HTML elements.
+屬性提供了HTML元素的其他信息。
 
-## HTML Attributes
+## HTML 屬性
+
+
+- HTML 元素可以有**屬性**
+- 屬性提供了元素**更多的信息**
+- 屬性都寫在指定的**開始標籤**裡面
+- 屬性是一個名字對一個值 就像 **名稱=“值”**
+
+## lang 屬性
 
 ```
-HTML elements can have attributes
-Attributes provide additional information about an element
-Attributes are always specified in the start tag
-Attributes come in name/value pairs like: name="value"
-```
-## The lang Attribute
+文檔的語言可以再 <html> 裡面聲明
 
-```
-The document language can be declared in the <html> tag.
+lang 屬性聲明語言
 
-The language is declared in the lang attribute.
-
-Declaring a language is important for accessibility applications (screen readers) and search engines:
+聲明語言 對於 輔助功能應用程式（螢幕閱讀器）和 搜索引擎 來說是很重要的
 ```
 
-``` javascript
+``` html
 <!DOCTYPE html>
 <html lang="en-US">
   <body>
@@ -32,62 +32,58 @@ Declaring a language is important for accessibility applications (screen readers
 </html>
 ```
 
-The first two letters specify the language (en). If there is a dialect, use two more letters (US).
 
-## The title Attribute
+## title 屬性
 
 ```
-HTML paragraphs are defined with the <p> tag.
+HTML 段落定義為<p>
 
-In this example, the <p> element has a title attribute. The value of the attribute is "About W3Schools":
+在這個例子中，<P>元件具有標題屬性。該屬性的值是" About W3Schools "：
 ```
 
 ### 範例
 
-```  javascript
+```  html
 <p title="About W3Schools">
-W3Schools is a web developer s site.
+W3Schools is a web developer's site.
 It provides tutorials and references covering
 many aspects of web programming,
 including HTML, CSS, JavaScript, XML, SQL, PHP, ASP, etc.
 </p>
 ```
+**當滑鼠移動到元素上時標題就會顯示出來**
 
-Note	When you move the mouse over the element, the title will be displayed as a tooltip.
 
-## The href Attribute
+## href 屬性
 
-HTML links are defined with the <a> tag. The link address is specified in the href attribute:
+HTML 連結定義為< a>標籤. 連結的網址為 href屬性的值
 
 ### 範例
 
-```Javascript
+```html
 <a href="http://www.w3schools.com">This is a link</a>
 ```
+之後的教學會學到更多有關連結與< a>標籤的用法
+
+
+## Size 屬性
 
 ```
-You will learn more about links and the <a> tag later in this tutorial.
-```
-
-## Size Attributes
-
-```
-HTML images are defined with the <img> tag.
+HTML 圖像是使用 <img>標籤
 
 The filename of the source (src), and the size of the image (width and height) are all provided as attributes:
 ```
 
 ### 範例
 
-```Javascript
+```html
 <img src="w3schools.jpg" width="104" height="142">
 ```
+圖像尺寸以像素為單位：width="104" 是指寬為104像素。
 
-The image size is specified in pixels: width="104" means 104 screen pixels wide.
+之後的教學會學到更多有關圖像與< img>標籤的用法
 
-You will learn more about images and the <img> tag later in this tutorial.
-
-## The alt Attribute
+## alt 屬性
 
 The alt attribute specifies an alternative text to be used, when an HTML element cannot be displayed.
 
